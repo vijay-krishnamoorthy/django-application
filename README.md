@@ -56,7 +56,7 @@ $ py manage.py runserver
 ```
 ## Authors
 
-* **Vijay Krishnamoorthy** - *Initial work* - [Angular](https://github.com/vijay-krishnamoorthy)
+* **Vijay Krishnamoorthy** - [My other projects](https://github.com/vijay-krishnamoorthy)
 
 ## document tree
 ```
