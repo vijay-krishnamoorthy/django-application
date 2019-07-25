@@ -21,9 +21,9 @@ virtualenv
 A step by step examples of how to install and run
 Install Python, MongoDB, SQLite from their offcial websites or click the below links,
 
-[Python](https://www.python.org/) - 64 bit version is preffered
-[MongoDB](https://www.mongodb.com/download-center/community) - GUI version much simple for starters
-[SQLite](https://www.sqlite.org/2019/sqlite-tools-win32-x86-3290000.zip) - Offficial site
+[Python](https://www.python.org/) - 64 bit version is preffered <br>
+[MongoDB](https://www.mongodb.com/download-center/community) - GUI version much simple for starters <br>
+[SQLite](https://www.sqlite.org/2019/sqlite-tools-win32-x86-3290000.zip) - Offficial site <br>
 
 Install the virtual environment creator using
 
@@ -82,4 +82,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * This project is still under development
-* Pull requests if you want work on
+* Pull requests are always welcomed if you want work on
