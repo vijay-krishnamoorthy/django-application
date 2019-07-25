@@ -1,7 +1,7 @@
 # django-application
 A website project using django framework as part of my python training
 
-#document tree
+## document tree
 ```
 ├───new
 │   └───__pycache__
