@@ -15,15 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
 #imported views from app
 from social import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index, name='Homepage'),
-    path('about/', views.about, name='about'),
-    path('posts/', views.posts, name='posts'),
-    path('login/', views.login, name='login'),
-    path('signup/', views.signup, name='signup'),
-    path('create_post/', views.create_post, name='create_post'),
-    path('validate', views.validate, name='validate'),
+    path('',include('social.urls')),
 ]
