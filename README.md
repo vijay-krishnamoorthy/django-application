@@ -19,7 +19,7 @@ virtualenv
 ### Installing
 
 A step by step examples of how to install and run
-Install Python, MongoDB, SQLite from their offcial websites or click the below links,
+<br>Install Python, MongoDB, SQLite from their offcial websites or click the below links,
 
 [Python](https://www.python.org/) - 64 bit version is preffered <br>
 [MongoDB](https://www.mongodb.com/download-center/community) - GUI version much simple for starters <br>
