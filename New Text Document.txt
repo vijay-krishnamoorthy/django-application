@@ -1,0 +1,78 @@
+<div class="content-align-center">
+    <div class="container">
+        <div class="col-lg-4">
+            <ul class="nav nav-tabs fluid md-tabs tabs-2 blue-gradient darken-3" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i
+                            class="fas fa-user mr-1"></i>
+                        Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i
+                            class="fas fa-user-plus mr-1"></i>
+                        Register</a>
+                </li>
+            </ul>
+
+            <div class="modal-content tab-content">
+                <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+                    <form method="POST" action="/social/templates/validate">
+                        {% csrf_token %}
+                        <div class="form-elegant">
+                            <div class="modal-body mx-4">
+                                <div class="md-form mb-5 md-outline">
+                                    <input type="email" id="userlog" name="username" class="form-control validate">
+                                    <label data-error="" data-success="" for="userlog">E-mail or username</label>
+                                </div>
+                                <div class="md-form pb-3 md-outline">
+                                    <input type="password" id="passlog" name="password" class="form-control validate">
+                                    <label data-error="" data-success="" for="passlog">Password</label>
+                                    <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#"
+                                            class="blue-text">
+                                            Password?</a></p>
+                                </div>
+                                <div class="text-center mb-3">
+                                    <button type="submit" class="btn blue-gradient btn-md btn-rounded z-depth-1a">Log In
+                                        <i class="fas fa-sign-in ml-1"></i></button>
+                                </div>
+                            </div>
+                            <div class="modal-footer mx-5 pt-3 mb-1">
+                                <p class="font-small grey-text d-flex justify-content-end">Not a member? <a
+                                        href="#panel8" class="blue-text ml-1">
+                                        Sign Up</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="panel8" role="tabpanel">
+                    <form method="POST" action="/social/templates/validate">
+                        {% csrf_token %}
+                    <div class="modal-body">
+                        <div class="md-form form-md mb-5 md-outline">
+                            <input type="email" id="username" class="form-control form-control-sm validate">
+                            <label data-error="wrong" data-success="right" for="username">Email or Usename</label>
+                        </div>
+                        <div class="md-form form-md mb-5  md-outline">
+                            <input type="password" id="password" class="form-control form-control-sm validate">
+                            <label data-error="wrong" data-success="right" for="password">Your password</label>
+                        </div>
+                        <div class="md-form form-md mb-4  md-outline">
+                            <input type="password" id="repassword" class="form-control form-control-sm validate">
+                            <label data-error="wrong" data-success="right" for="repassword">Repeat password</label>
+                        </div>
+                        <div class="text-center form-md mt-2">
+                            <button type="button" class="btn blue-gradient btn-lg btn-rounded z-depth-1a">Sign Up<i
+                                    class="fas fa-sign-in ml-1"></i></button>
+                        </div>
+                    </div>
+                    </form>
+                    <div class="modal-footer">
+                        <div class="options text-right">
+                            <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

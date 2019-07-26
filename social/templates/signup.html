@@ -1,3 +1,22 @@
-<h1>
-    signup page
-</h1>
+{% extends 'base.html' %}
+{% if messages %}
+{% for message in messages%}
+<div class="alert alert-">
+   
+</div>
+{% endfor %}
+{% endif %}
+{% block content %}
+<div class="col col-lg-4 offset-4">
+<form class="border border-light p-5 form-group" method="POST">
+    {% csrf_token %}
+    {% form.as_p %}
+    <!-- <p class="h4 mb-4 text-center">Sign in</p>
+    <input type="email" id="email" name="username" class="form-control mb-4" placeholder="E-mail">
+
+    <input type="password" id="password" name="password" class="form-control mb-4" placeholder="Password">
+
+    <button class="btn btn-info btn-block peach-gradient my-4" type="submit">Sign in</button> -->
+</form>
+</div>
+{% endblock %}
