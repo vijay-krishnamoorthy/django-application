@@ -58,7 +58,7 @@ $ py manage.py runserver
 
 * **Vijay Krishnamoorthy** - [My other projects](https://github.com/vijay-krishnamoorthy)
 
-## document tree
+## Folder tree
 ```
 ├───new
 │   └───__pycache__
