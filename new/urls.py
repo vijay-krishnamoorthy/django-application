@@ -20,5 +20,6 @@ from django.conf.urls import include
 from social import views
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('',include('social.urls')),
 ]

@@ -96,7 +96,6 @@ abbr[data-original-title],
 abbr[title] {
     text-decoration: underline;
     -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
     -webkit-text-decoration-skip-ink: none;
@@ -242,7 +241,6 @@ button {
 
 button:focus {
     outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color
 }
 
 button,
@@ -3942,8 +3940,6 @@ input[type=submit].btn-block {
     background-color: #adb5bd;
     border-radius: .5rem;
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-transform .15s ease-in-out;
-    transition: transform .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    transition: transform .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-transform .15s ease-in-out
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -5997,8 +5993,6 @@ a.close.disabled {
 .modal.fade .modal-dialog {
     transition: -webkit-transform .3s ease-out;
     transition: transform .3s ease-out;
-    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
-    -webkit-transform: translate(0, -50px);
     transform: translate(0, -50px)
 }
 
@@ -6200,8 +6194,6 @@ a.close.disabled {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    text-align: left;
-    text-align: start;
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
@@ -6326,7 +6318,6 @@ a.close.disabled {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    text-align: start;
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
@@ -32954,7 +32945,6 @@ ul.stepper li.completed a .grey-skin .circle {
 .picker .picker__holder {
     width: 100%;
     overflow-y: auto;
-    overflow-scrolling: touch;
     position: fixed;
     transition: background .15s ease-out, top 0s .15s;
     -webkit-backface-visibility: hidden;
@@ -33562,12 +33552,10 @@ ul.stepper li.completed a .grey-skin .circle {
 
 .picker__box .picker__header .picker__select--month.browser-default {
     display: inline;
-    width: 40%
 }
 
 .picker__box .picker__header .picker__select--year.browser-default {
     display: inline;
-    width: 25%
 }
 
 .picker__box .picker__header .picker__nav--next,
